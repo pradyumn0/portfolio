@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif !important;
+  padding: 0;
+  margin: 0;
+  /* overflow-x: hidden; */
+}
+
+.sec1 {
+  width: 100%;
+  height: 100vh;
+  background-color: #253956;
+  color: white;
+  overflow-x: hidden;
+}
+.sec1 .hero-name {
+  font-weight: 700;
+}
+.sec1 .hero-detail {
+  font-size: 1.3vw;
+}
+.sec1 .img1 {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border: 3px solid #ffa800;
+  border-radius: 50%;
+}
+.sec1 .img12 {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border: 3px solid #ffa800;
+  border-radius: 50%;
+}
+.sec1 .sec-main {
+  margin-top: 100px;
+}
+.sec1 .helo-name {
+  font-size: 4vw;
+  font-weight: 700;
+}
+.web-dev {
+  color: #00ff57;
+}
+.img-div {
+  margin-left: px;
+}
+
+.sec1 .btn1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  background-color: transparent;
+  color: white;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 1%;
+  /* padding-left: 1%;
+  padding-right: 1%; */
+  padding-inline: 2%;
+  cursor: pointer;
+}
+
+.sec2 {
+  width: 100%;
+  /* height: 70vh; */
+  padding-top: 100px;
+  padding-bottom: 5%;
+}
+
+.sec2 .img2 {
+  width: 359px;
+  height: 335px;
+  object-fit: cover;
+  border: 5px solid #253956;
+}
+.sec2 .about-st {
+  color: #253956;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.sec2 .about {
+  font-size: 1vw;
+  font-weight: 500;
+  text-align: justify;
+}
+.red {
+  color: red;
+  font-weight: 700;
+}
+.btn-hire {
+  font-family: "poppins";
+  font-weight: 700;
+  background-color: #253956;
+  color: white;
+  padding-inline: 6%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border: 2px solid #253956;
+  border-radius: 5px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.sec3 {
+  /* height: 80vh; */
+  width: 100%;
+  background-color: #253956;
+  color: white;
+  /* overflow-y: hidden; */
+  overflow-x: hidden;
+}
+.first-pera {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  padding-top: 35px;
+}
+.orange {
+  color: #ffa800;
+}
+.sec3 .img-div {
+  margin-top: 50px;
+  /* justify-content: space-between; */
+  text-align: center;
+  font-weight: 700;
+  line-height: 40px;
+  font-size: 20px;
+}
+.sec3 .img-div1 p {
+  /* text-align: center; */
+}
+.sec3 .img-div1 img {
+  width: 300px;
+  height: 166px;
+}
+.img-bg {
+  background-image: url(/Asset/sec3-bgimg.png);
+  /* height: 200px; */
+  width: 100%;
+  /* overflow-y: hidden; */
+  object-fit: cover;
+}
+.sub-sec p {
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  padding-top: 10px;
+  /* z-index: 9999; */
+}
+.btn-logos button {
+  border: 2px solid transparent;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.img-logo {
+  height: 30px;
+  width: 30px;
+  /* margin-left: 10px; */
+  /* object-fit: cover; */
+}
+.phoneno {
+  font-weight: 550 !important;
+  margin-bottom: 0;
+}
+.copyright {
+  font-weight: 500;
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .hero-photo {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .hero-opt {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .mobile-view,
+  .menu-drop {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  .mobile-view {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+  .sec1 {
+    text-align: center;
+    /* padding-left: 1%; */
+    /* padding-bottom: 2%; */
+  }
+  .sec1 .sec-main {
+    margin-top: 10px;
+  }
+  .sec1 .helo-name {
+    font-size: 8vw;
+    font-weight: 700;
+    /* margin-top: 30px; */
+    /* line-height: 40px; */
+  }
+  .sec1 .hero-detail {
+    font-size: 2.3vw;
+    font-weight: 600;
+  }
+
+  .sec1 .menu-drop i{
+    font-size: 8vw;
+    /* overflow-y: hidden; */
+  }
+
+  .sec2 {
+    width: 100%;
+    /* height: 70vh; */
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .sec2 .img2 {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 5px solid #253956;
+    margin-bottom: 20px;
+  }
+
+  .sec2 .about {
+    font-size: 2.5vw;
+    font-weight: 500;
+    text-align: justify;
+  }
+  .sec3 .img-mob {
+    width: 100%;
+  }
+}
